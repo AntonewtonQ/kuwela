@@ -10,7 +10,10 @@ export default function Section({
   children: React.ReactNode;
 }) {
   return (
-    <section id={id} className={cn("scroll-mt-28 py-16 md:py-24", className)}>
+    <section
+      id={id}
+      className={cn("scroll-mt-28 py-16 md:py-24 px-6", className)}
+    >
       <div className="container">{children}</div>
     </section>
   );

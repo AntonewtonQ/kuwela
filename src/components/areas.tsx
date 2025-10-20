@@ -8,7 +8,7 @@ export default function Areas() {
     <Section id="areas" className="relative">
       {/* background rays like the mock */}
       <div className="pointer-events-none absolute inset-0 -z-10 opacity-80 bg-[#010103]">
-        <div className="h-full w-full bg-[radial-gradient(900px_400px_at_20%_0%,rgba(124,58,237,0.10),transparent_60%),radial-gradient(800px_300px_at_80%_20%,rgba(99,102,241,0.10),transparent_60%)]" />
+        <div className="h-full w-full inset-0 opacity-90 bg-[radial-gradient(1200px_600px_at_50%_-10%,#6d28d9_10%,transparent_60%),radial-gradient(800px_400px_at_80%_20%,#4f46e5_8%,transparent_60%)]" />
       </div>
 
       {/* Heading */}
