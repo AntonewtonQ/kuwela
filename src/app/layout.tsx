@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kuwela",
-  description: "Kuwela App",
+  title: "Kuwela – Marketing e Negócios",
+  description: "Consultoria angolana que une estratégia, marketing e tecnologia para transformar ideias em resultados.",
 };
 
 export default function RootLayout({
