@@ -1,6 +1,5 @@
 import Navbar from "@/components/navbar";
 import Testimonials from "@/components/testimonials";
-import Blog from "@/components/blog";
 import Footer from "@/components/footer";
 import About from "@/components/about";
 import Areas from "@/components/areas";
