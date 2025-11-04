@@ -9,8 +9,9 @@ export default function Hero() {
     <section id="inicio" className="relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 -z-10 bg-[#0b0b14]">
-        {/* soft violet glows */}
-        <div className="absolute inset-0 opacity-90 bg-[radial-gradient(1200px_600px_at_50%_-10%,#6d28d9_10%,transparent_60%),radial-gradient(800px_400px_at_80%_20%,#4f46e5_8%,transparent_60%)]" />
+        {/* soft blue glows */}
+        <div className="absolute inset-0 opacity-90 bg-[radial-gradient(1200px_600px_at_50%_-10%,#3b82f6_10%,transparent_60%),radial-gradient(800px_400px_at_80%_20%,#6366f1_8%,transparent_60%)]" />
+
         {/* star field */}
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_30%,rgba(255,255,255,0.06)_1px,transparent_1px)] [background-size:16px_16px] opacity-20" />
       </div>
@@ -39,7 +40,7 @@ export default function Hero() {
         {/* CTAs */}
         <div className="mt-10 flex flex-col items-center gap-3 sm:flex-row">
           {/* Primary CTA abre o diálogo de diagnóstico */}
-          <div className="[&>button]:h-12 [&>button]:rounded-full [&>button]:px-6 [&>button]:text-base [&>button]:bg-violet-600 [&>button:hover]:bg-violet-500">
+          <div className="[&>button]:h-12 [&>button]:rounded-full [&>button]:px-6 [&>button]:text-base [&>button]:bg-blue-600 [&>button:hover]:bg-blue-500">
             <ContactDialog asCTA />
           </div>
 
@@ -63,12 +64,12 @@ function Decorations() {
   return (
     <>
       {/* purple sparkles */}
-      <span className="pointer-events-none absolute left-6 top-40 h-5 w-5 -rotate-12 rounded-[2px] bg-violet-400/40 blur-[1px]" />
-      <span className="pointer-events-none absolute right-12 top-24 h-6 w-6 rotate-45 rounded-[2px] bg-violet-500/40 blur-[1px]" />
+      <span className="pointer-events-none absolute left-6 top-40 h-5 w-5 -rotate-12 rounded-[2px] bg-blue-400/40 blur-[1px]" />
+      <span className="pointer-events-none absolute right-12 top-24 h-6 w-6 rotate-45 rounded-[2px] bg-blue-500/40 blur-[1px]" />
       <span className="pointer-events-none absolute bottom-20 left-1/3 h-4 w-4 rotate-45 rounded-[2px] bg-indigo-400/40 blur-[1px]" />
 
       {/* subtle gradient footer wave */}
-      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-56 bg-[radial-gradient(60%_50%_at_50%_120%,rgba(99,102,241,0.35),transparent_70%)]" />
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-56 bg-[radial-gradient(60%_50%_at_50%_120%,rgba(96,165,250,0.35),transparent_70%)]" />
     </>
   );
 }

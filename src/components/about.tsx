@@ -36,7 +36,7 @@ export default function About() {
           {/* highlights */}
           <ul className="mt-6 grid gap-4 sm:grid-cols-2">
             <li className="flex items-start gap-3">
-              <CheckCircle2 className="mt-0.5 h-5 w-5 text-violet-300" />
+              <CheckCircle2 className="mt-0.5 h-5 w-5 text-blue-300" />
               <div>
                 <h3 className="font-medium text-white">
                   Estratégia + Execução
@@ -67,7 +67,7 @@ export default function About() {
               </div>
             </li>
             <li className="flex items-start gap-3">
-              <Lightbulb className="mt-0.5 h-5 w-5 text-violet-300" />
+              <Lightbulb className="mt-0.5 h-5 w-5 text-blue-300" />
               <div>
                 <h3 className="font-medium text-white">
                   Transformação digital
@@ -87,7 +87,7 @@ export default function About() {
 
           <ol className="space-y-4 text-sm text-white/70">
             <li className="flex items-start gap-3">
-              <span className="mt-2 h-2 w-2 rounded-full bg-violet-400" />
+              <span className="mt-2 h-2 w-2 rounded-full bg-blue-400" />
               <div>
                 <div className="font-medium text-white">
                   2025 — Fundação da Kuwela
@@ -96,7 +96,7 @@ export default function About() {
               </div>
             </li>
             <li className="flex items-start gap-3">
-              <span className="mt-2 h-2 w-2 rounded-full bg-violet-400" />
+              <span className="mt-2 h-2 w-2 rounded-full bg-blue-400" />
               <div>
                 <div className="font-medium text-white">
                   2025 — 1+ projectos entregues
@@ -105,7 +105,7 @@ export default function About() {
               </div>
             </li>
             <li className="flex items-start gap-3">
-              <span className="mt-2 h-2 w-2 rounded-full bg-violet-400" />
+              <span className="mt-2 h-2 w-2 rounded-full bg-blue-400" />
               <div>
                 <div className="font-medium text-white">
                   2025 — Portfólio digital reforçado

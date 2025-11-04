@@ -10,7 +10,7 @@ export default function Footer() {
     >
       {/* background glow */}
       <div className="pointer-events-none absolute inset-0 -z-10 opacity-80 bg-[#0b0b14]">
-        <div className="h-full w-full bg-[radial-gradient(900px_400px_at_20%_50%,rgba(124,58,237,0.10),transparent_60%),radial-gradient(800px_300px_at_80%_30%,rgba(99,102,241,0.08),transparent_60%)]" />
+        <div className="h-full w-full bg-[radial-gradient(900px_400px_at_20%_50%,rgba(96,165,250,0.10),transparent_60%),radial-gradient(800px_300px_at_80%_30%,rgba(147,197,253,0.08),transparent_60%)]" />
       </div>
 
       <div className="container grid gap-10 md:grid-cols-3">
@@ -18,7 +18,7 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-2">
             <LogoDot />
-            <span className="bg-gradient-to-r from-violet-300 to-indigo-300 bg-clip-text text-xl font-semibold text-transparent">
+            <span className="bg-gradient-to-r from-blue-300 to-indigo-300 bg-clip-text text-xl font-semibold text-transparent">
               Kuwela
             </span>
           </div>
@@ -112,7 +112,7 @@ export default function Footer() {
       </div>
 
       {/* glow base */}
-      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-20 bg-[radial-gradient(60%_50%_at_50%_120%,rgba(99,102,241,0.35),transparent_70%)]" />
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-20 bg-[radial-gradient(60%_50%_at_50%_120%,rgba(96,165,250,0.35),transparent_70%)]" />
     </footer>
   );
 }

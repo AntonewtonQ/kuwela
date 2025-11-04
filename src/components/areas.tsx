@@ -8,14 +8,14 @@ export default function Areas() {
     <Section id="areas" className="relative">
       {/* background rays like the mock */}
       <div className="pointer-events-none absolute inset-0 -z-10 opacity-80 bg-[#010103]">
-        <div className="h-full w-full inset-0 opacity-90 bg-[radial-gradient(1200px_600px_at_50%_-10%,#6d28d9_10%,transparent_60%),radial-gradient(800px_400px_at_80%_20%,#4f46e5_8%,transparent_60%)]" />
+        <div className="h-full w-full inset-0 opacity-90 bg-[radial-gradient(1200px_600px_at_50%_-10%,#3b82f6_12%,transparent_60%),radial-gradient(800px_400px_at_80%_20%,#6366f1_10%,transparent_60%)]" />
       </div>
 
       {/* Heading */}
       <div className="mb-10 text-center">
         <h2 className="text-2xl font-extrabold text-white md:text-4xl">
           Escolha a{" "}
-          <span className="bg-gradient-to-r from-violet-300 to-indigo-300 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-blue-300 to-indigo-300 bg-clip-text text-transparent">
             solução
           </span>{" "}
           perfeita para o seu negócio
@@ -43,13 +43,13 @@ export default function Areas() {
               <div
                 className={`absolute inset-x-0 top-0 h-24 rounded-t-[22px] border-b ${
                   featured
-                    ? "bg-gradient-to-b from-violet-600/25 to-transparent border-white/15"
+                    ? "bg-gradient-to-b from-blue-600/25 to-transparent border-white/15"
                     : "bg-white/[0.06] border-white/10"
                 }`}
               />
 
               {/* floating play badge */}
-              <div className="absolute top-4 left-1/2 grid h-12 w-12 -translate-x-1/2 place-items-center rounded-full border border-white/15 bg-white/10 text-violet-200 shadow-xl">
+              <div className="absolute top-4 left-1/2 grid h-12 w-12 -translate-x-1/2 place-items-center rounded-full border border-white/15 bg-white/10 text-blue-200 shadow-xl">
                 <Play className="h-5 w-5" />
               </div>
 
@@ -60,7 +60,7 @@ export default function Areas() {
               <ul className="mt-5 space-y-2 text-left text-sm text-white/75">
                 {a.items.map((i: string) => (
                   <li key={i} className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 flex-none text-violet-300" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 flex-none text-blue-300" />
                     <span>{i}</span>
                   </li>
                 ))}
@@ -69,7 +69,7 @@ export default function Areas() {
               {/* CTA */}
               <div className="mt-6">
                 {featured ? (
-                  <div className="rounded-full bg-gradient-to-r from-violet-500 to-indigo-500 p-[2px]">
+                  <div className="rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 p-[2px]">
                     <Button className="h-10 w-full rounded-full bg-white text-[#0b0b14] hover:bg-white/95">
                       Explorar
                     </Button>

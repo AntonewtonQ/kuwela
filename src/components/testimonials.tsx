@@ -14,12 +14,12 @@ export default function Testimonials() {
     <Section id="depoimentos" className="relative overflow-hidden">
       {/* fundo sutil para combinar com o tema */}
       <div className="pointer-events-none absolute inset-0 -z-10 opacity-80 bg-[#010103]">
-        <div className="h-full w-full bg-[radial-gradient(900px_400px_at_20%_50%,rgba(124,58,237,0.10),transparent_60%),radial-gradient(800px_300px_at_80%_30%,rgba(99,102,241,0.08),transparent_60%)]" />
+        <div className="h-full w-full bg-[radial-gradient(900px_400px_at_20%_50%,rgba(96,165,250,0.10),transparent_60%),radial-gradient(800px_300px_at_80%_30%,rgba(147,197,253,0.08),transparent_60%)]" />
       </div>
 
       <div className="mb-10 text-center">
         <h2 className="text-3xl font-bold text-white md:text-4xl">
-          Ouça de <span className="text-violet-300">quem mais importa</span>
+          Ouça de <span className="text-blue-300">quem mais importa</span>
         </h2>
         <p className="mx-auto mt-3 max-w-2xl text-sm text-white/70">
           Histórias reais de clientes que transformaram os seus resultados com a
@@ -77,7 +77,7 @@ function TestimonialCard({
       {/* rodapé com avatar, nome e rating */}
       <figcaption className="mt-5 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-violet-400 to-indigo-400 text-[11px] font-semibold text-black/80">
+          <div className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-blue-400 to-indigo-400 text-[11px] font-semibold text-black/80">
             {initials}
           </div>
           <div className="leading-tight">

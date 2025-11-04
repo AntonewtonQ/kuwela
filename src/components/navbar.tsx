@@ -41,20 +41,20 @@ export default function Navbar() {
     <header
       className={`sticky top-0 z-50 w-full border-b transition-colors ${
         scrolled
-          ? "border-white/10 bg-[#0b0b14]/70 backdrop-blur"
+          ? "border-white/10 bg-[#009de0]/70 backdrop-blur"
           : "border-transparent bg-[#151529]"
       }`}
     >
       {/* soft violet background glows */}
       <div className="pointer-events-none absolute inset-0 -z-10 opacity-80">
-        <div className="h-full w-full bg-[radial-gradient(900px_400px_at_20%_50%,rgba(124,58,237,0.18),transparent_60%),radial-gradient(800px_300px_at_80%_30%,rgba(99,102,241,0.16),transparent_60%)]" />
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-56 bg-[radial-gradient(60%_50%_at_50%_120%,rgba(96,165,250,0.35),transparent_70%)]" />
       </div>
 
       <div className="container flex h-16 items-center justify-between">
         {/* Brand: ícone + nome com gradiente */}
         <Link href="#inicio" className="group inline-flex items-center gap-2">
           <DotLogo />
-          <span className="bg-gradient-to-r from-violet-500 to-indigo-400 bg-clip-text text-lg font-semibold text-transparent group-hover:opacity-95">
+          <span className="bg-gradient-to-r from-blue-500 to-indigo-400 bg-clip-text text-lg font-semibold text-transparent group-hover:opacity-95">
             Kuwela
           </span>
         </Link>
@@ -74,7 +74,7 @@ export default function Navbar() {
                 <span>{item.label}</span>
                 {/* underline/indicator estilo Nexus */}
                 <span
-                  className={`pointer-events-none absolute left-1/2 top-full block h-[2px] w-0 -translate-x-1/2 rounded-full bg-gradient-to-r from-violet-400 to-indigo-400 transition-[width] duration-300 ${
+                  className={`pointer-events-none absolute left-1/2 top-full block h-[2px] w-0 -translate-x-1/2 rounded-full bg-gradient-to-r from-blue-400 to-indigo-400 transition-[width] duration-300 ${
                     active === item.href ? "w-6" : "group-hover:w-6"
                   }`}
                 />
@@ -95,7 +95,7 @@ export default function Navbar() {
         <div className="flex items-center gap-2">
           {/* CTA com aro gradiente */}
           <div className="hidden sm:block">
-            <div className="rounded-full bg-gradient-to-r from-violet-500 to-indigo-500 p-[2px] shadow-[0_0_0_3px_rgba(255,255,255,0.06)_inset]">
+            <div className="rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 p-[2px] shadow-[0_0_0_3px_rgba(255,255,255,0.06)_inset]">
               <Button
                 asChild
                 size="sm"
